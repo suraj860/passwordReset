@@ -31,7 +31,7 @@ const services = {
                    to:req.body.email,
                    subject : "reset your password",
                    html : `
-                   <p>click the <a href="http://localhost:3000/reset/${emailToken}">link</a> to reset your password</p>
+                   <p>click the <a href="https://reset-password895.netlify.app/reset/${emailToken}">link</a> to reset your password</p>
                    <p>valid for 24 hrs only</p>
                    `
     
