@@ -21,13 +21,13 @@ const services = {
                let transporter = nodemailer.createTransport({
                    service:"gmail",
                    auth:{
-                       user:"surajpatil131297@gmail.com",
-                       pass: "8605587104"
+                       user:"kolhapurkar131297@gmail.com",
+                       pass: "xezpiorybavoisux"
                    }
                });
                //body to be present in the mail
                let mailOptions ={
-                   from : "surajpatil131297@gmail.com",
+                   from : "Password Reset",
                    to:req.body.email,
                    subject : "reset your password",
                    html : `
